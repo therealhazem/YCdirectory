@@ -1,24 +1,29 @@
 import { describe } from "node:test";
 import SearchForm from "../../components/SearchForm";
 import StartupCard from "@/components/StartupCard";
+import { client } from "@/sanity/lib/client";
+import { STARTUPS_QUERY } from "@/lib/queries";
 
 export default async function Home({ searchParams }: {
   searchParams: Promise<{ query?: string }>
 }) {
   const query = (await searchParams).query;
 
-  const posts = [
-    {
-      _CreatedAt: new Date(),
-      views: 55,
-      author: { _id: 1, Name: "Hazem Elgindy" },
-      _id: 1,
-      description: "this is the post",
-      image: "https://community.nasscom.in/sites/default/files/styles/560_x_350/public/media/images/startup.jpeg.webp?itok=06t_i_-s",
-      category: "Robots",
-      title: "We Robots",
-    },
-  ];
+  const posts = await client.fetch(STARTUPS_QUERY)
+
+  console.log(JSON.stringify(posts, null, 2))
+  // const posts = [
+  //   {
+  //     _CreatedAt: new Date(),
+  //     views: 55,
+  //     author: { _id: 1, Name: "Hazem Elgindy" },
+  //     _id: 1,
+  //     description: "this is the post",
+  //     image: "https://community.nasscom.in/sites/default/files/styles/560_x_350/public/media/images/startup.jpeg.webp?itok=06t_i_-s",
+  //     category: "Robots",
+  //     title: "We Robots",
+  //   },
+  // ];
 
   return (
     <>
