@@ -67,11 +67,11 @@
     @apply px-6 py-10 max-w-7xl mx-auto;
   }
 
-  .card_grid {
-    @apply grid md:grid-cols-3 sm:grid-cols-2 gap-5;
+  .card-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5;
   }
 
-  .card_grid-sm {
+  .card-grid-sm {
     @apply grid sm:grid-cols-2 gap-5;
   }
 
