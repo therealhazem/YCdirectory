@@ -55,6 +55,7 @@ export default async function Home({ searchParams }: {
             <p className="no-results"> No Startups found </p>
           )}
         </ul>
+        
       </section>
     </>
   );
