@@ -1,7 +1,5 @@
 import type { NextConfig } from "next";
 
-const isCanary = process.env.NEXT_CANARY === "1";
-
 const nextConfig: NextConfig = {
 
   images: {
@@ -13,13 +11,11 @@ const nextConfig: NextConfig = {
       }
     ],
   },
-  ...(isCanary && {
-    experimental: {
-      ppr: "incremental",
-    },
-  }),
+  experimental: {
+    ppr: "incremental",
+  },
   devIndicators: {
-    position: "bottom-right"
+    position: "bottom-left"
   }
 };
 

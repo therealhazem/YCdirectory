@@ -11,7 +11,7 @@ export default async function Home({ searchParams }: {
   const params = { search: query || null }
   const { data: posts } = await sanityFetch({ query: STARTUPS_QUERY, params });
 
-  console.log(JSON.stringify(posts, null, 2))
+  // console.log(JSON.stringify(posts, null, 2))
   // const posts = [
   //   {
   //     _CreatedAt: new Date(),
@@ -55,7 +55,7 @@ export default async function Home({ searchParams }: {
             <p className="no-results"> No Startups found </p>
           )}
         </ul>
-        
+
       </section>
     </>
   );

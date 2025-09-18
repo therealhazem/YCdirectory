@@ -6,7 +6,7 @@ import { formateDate } from '@/lib/utils';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Suspense } from 'react';
-import View from '@/components/view';
+import View from '@/components/View';
 import { Skeleton } from '@/components/ui/skeleton';
 
 const md = markdownit();
