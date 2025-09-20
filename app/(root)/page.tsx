@@ -1,8 +1,9 @@
-import { describe } from "node:test";
+// import { describe } from "node:test";
 import SearchForm from "../../components/SearchForm";
 import StartupCard, { StartupTypeCard } from "@/components/StartupCard";
 import { STARTUPS_QUERY } from "@/lib/queries";
 import { sanityFetch } from "@/sanity/lib/live";
+import { auth } from "@/auth";
 
 export default async function Home({ searchParams }: {
   searchParams: Promise<{ query?: string }>
@@ -24,6 +25,10 @@ export default async function Home({ searchParams }: {
   //     title: "We Robots",
   //   },
   // ];
+
+
+  const session = await auth();
+  console.log(session?.id)
 
   return (
     <>
