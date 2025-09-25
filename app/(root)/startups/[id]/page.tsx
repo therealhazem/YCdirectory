@@ -2,7 +2,7 @@ import { STARTUP_BY_ID_QUERY } from '@/lib/queries';
 import { client } from '@/sanity/lib/client';
 import { notFound } from 'next/navigation';
 import markdownit from "markdown-it"
-import { formateDate } from '@/lib/utils';
+import { formatDate } from '@/lib/utils';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Suspense } from 'react';
@@ -26,7 +26,7 @@ const page = async ({ params }: { params: Promise<{ id: string }> }) => {
 
         <>
             <section className='pink_container !min-h-[230px]'>
-                <p className='tag'>{formateDate(post?._createdAt)}</p>
+                <p className='tag'>{formatDate(post?._createdAt)}</p>
                 <h1 className='heading'>{post.title}</h1>
                 <p className='sub-heading !max-w-5xl'>{post.description}</p>
             </section>

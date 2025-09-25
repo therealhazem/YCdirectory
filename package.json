@@ -15,12 +15,18 @@
     "typegen": "sanity schema extract --path=./sanity/extract.json && sanity typegen generate"
   },
   "packageManager": "npm@10.5.2",
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom",
+    "next": "$next"
+  },
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-toast": "^1.2.15",
     "@sanity/image-url": "^1.2.0",
     "@sanity/vision": "^4.8.1",
-    "@sentry/nextjs": "^10.12.0",
+    "@sentry/nextjs": "^10.14.0",
     "@tailwindcss/typography": "github:tailwindcss/typography",
     "@uiw/react-md-editor": "^4.0.8",
     "class-variance-authority": "^0.7.1",
