@@ -4,6 +4,7 @@ import { auth } from "@/auth";
 import { parseServerActionResponse } from "@/lib/utils";
 import slugify from "slugify";
 import { writeClient } from "@/sanity/lib/write-client";
+import { revalidatePath } from "next/cache";
 
 export const createPitch = async (
     state: any,
@@ -42,6 +43,9 @@ export const createPitch = async (
         };
 
         const result = await writeClient.create({ _type: "startup", ...startup });
+
+        // Revalidate the homepage to show the new post immediately
+        revalidatePath("/");
 
         return parseServerActionResponse({
             ...result,
