@@ -1,6 +1,6 @@
 <div align="center">
 
-![YC Directory](public/logo.png)
+![YC Directory](public/logo2.png)
 
 # 🚀 YC Directory
 
@@ -12,8 +12,6 @@ A modern startup directory platform where entrepreneurs can showcase their ideas
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Sanity](https://img.shields.io/badge/Sanity-000000?style=for-the-badge&logo=sanity&logoColor=white)
-
-[Live Demo](#) • [Documentation](#) • [Report Bug](#) • [Request Feature](#)
 
 </div>
 
@@ -30,7 +28,6 @@ A modern startup directory platform where entrepreneurs can showcase their ideas
 - [🚀 Deployment](#-deployment)
 - [📱 Screenshots](#-screenshots)
 - [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 
 ---
 
@@ -51,7 +48,7 @@ Built with modern web technologies and a focus on user experience, this platform
 ## ⚙️ Tech Stack
 
 ### Frontend
-- **React 18** - Modern UI library with hooks and functional components
+- **React 19** - Modern UI library with hooks and functional components
 - **Next.js 15** - Full-stack React framework with App Router
 - **TypeScript** - Type-safe JavaScript development
 - **TailwindCSS** - Utility-first CSS framework
@@ -114,7 +111,7 @@ Make sure you have the following installed on your machine:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/yc-directory.git
+   git clone https://github.com/therealhazem/YCdirectory.git
    cd yc-directory
    ```
 
@@ -229,16 +226,16 @@ The application can be deployed to any platform that supports Next.js:
 <div align="center">
 
 ### Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage](assets/home.png)
 
 ### Startup Details
-![Startup Details](screenshots/startup-details.png)
+![Startup Details](assets/startup.png)
 
 ### User Profile
-![User Profile](screenshots/user-profile.png)
+![User Profile](assets/profile.png)
 
 ### Create Startup
-![Create Startup](screenshots/create-startup.png)
+![Create Startup](assets/create.png)
 
 </div>
 
@@ -264,16 +261,12 @@ We welcome contributions! Please follow these steps:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 <div align="center">
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by [Hazem Elgindy]**
 
-[⭐ Star this repo](https://github.com/your-username/yc-directory) • [🐛 Report Bug](https://github.com/your-username/yc-directory/issues) • [💡 Request Feature](https://github.com/your-username/yc-directory/issues)
+**Check my [Portfolio](https://hazemelgindy.me)**
+
+[⭐ Star this repo](https://github.com/therealhazem/YCdirectory) • [🐛 Report Bug](https://github.com/therealhazem/YCdirectory/issues) • [💡 Request Feature](https://github.com/therealhazem/YCdirectory/issues)
 
 </div>
