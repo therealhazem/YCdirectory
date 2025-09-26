@@ -282,7 +282,7 @@ We welcome contributions! Please follow these steps:
 
 *Fueled by Egyptian Songs & a Lot of Coffee*
 
-**Check my [Portfolio](https://hazemelgindy.me)**
+**🌐 Check my [Portfolio](https://hazemelgindy.me)**
 
 [⭐ Star this repo](https://github.com/therealhazem/YCdirectory) • [🐛 Report Bug](https://github.com/therealhazem/YCdirectory/issues) • [💡 Request Feature](https://github.com/therealhazem/YCdirectory/issues)
 
