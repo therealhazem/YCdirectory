@@ -13,6 +13,14 @@ A modern startup directory platform where entrepreneurs can showcase their ideas
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Sanity](https://img.shields.io/badge/Sanity-000000?style=for-the-badge&logo=sanity&logoColor=white)
 
+## 🌐 **LIVE PREVIEW**
+
+[![🚀 View Live Demo](https://img.shields.io/badge/🚀_View_Live_Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white)](https://yc-directory-therealhazem.vercel.app/)
+
+**👉 [https://yc-directory-therealhazem.vercel.app/](https://yc-directory-therealhazem.vercel.app/) 👈**
+
+*Experience the full platform with real startup submissions and interactive features*
+
 </div>
 
 ---
@@ -98,6 +106,13 @@ Built with modern web technologies and a focus on user experience, this platform
 ---
 
 ## 🤸 Quick Start
+
+### 🌐 **Try It Live First!**
+
+**Before setting up locally, check out the live demo:**
+👉 **[https://yc-directory-therealhazem.vercel.app/](https://yc-directory-therealhazem.vercel.app/)** 👈
+
+*See the platform in action with real startup submissions, user profiles, and all interactive features!*
 
 ### Prerequisites
 
