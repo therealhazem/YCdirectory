@@ -44,7 +44,7 @@ export const createPitch = async (
 
         const result = await writeClient.create({ _type: "startup", ...startup });
 
-        // Revalidate the homepage to show the new post immediately
+        // Only revalidate the homepage to show new posts
         revalidatePath("/");
 
         return parseServerActionResponse({

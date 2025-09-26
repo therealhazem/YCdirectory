@@ -5,9 +5,6 @@ import { STARTUPS_QUERY } from "@/lib/queries";
 import { sanityFetch } from "@/sanity/lib/live";
 import { auth } from "@/auth";
 
-// Use ISR with revalidation for better performance
-export const revalidate = 60;
-
 export default async function Home({ searchParams }: {
   searchParams: Promise<{ query?: string }>
 }) {
