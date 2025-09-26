@@ -278,8 +278,9 @@ We welcome contributions! Please follow these steps:
 
 <div align="center">
 
-1. **Made with ❤️ by Hazem Elgindy**
-Fueled by Egyptian Songs & a Lot of Coffee
+**Made with ❤️ by Hazem Elgindy** 
+
+*Fueled by Egyptian Songs & a Lot of Coffee*
 
 **Check my [Portfolio](https://hazemelgindy.me)**
 
